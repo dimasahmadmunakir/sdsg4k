@@ -1,0 +1,25 @@
+{
+    "name": "repelis/ver-avatar-2-el-sentido-del-aqua-peliculas-gratis-enespanol",
+    "description": "avatar 2: el sentido del agua (2022): avatar 2: el sentido del agua (2022) Película Completa Gratis en HD con Subtitulado Castellano. Ver Película Completa de",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "contatrewro@trezo.com.br",
+            "name": "Trezo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "1.1.0",
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MelhorEnvio\\Quote\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
